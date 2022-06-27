@@ -1,0 +1,68 @@
+/* black background on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: #34606b;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar-collapse {
+    color: #fff;
+}
+
+
+/* HERO IMAGE */
+.bgimage {
+    height:100vh;
+    background: url('assets/images/heroImage.jpeg');
+    background-size:cover;
+    position:relative;
+}
+/* HERO TEXT*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* ABOUT IMAGE */
+.imageAboutPage {
+    width: 100%;
+}
+
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #89be89;
+}
+.fab {
+    color: #fff;
+}
+/* footer styling */
+#footer {
+    background-color: #34606b;
+    text-align: center;
+}
+
+/* spacing on all sections */
+#about, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
